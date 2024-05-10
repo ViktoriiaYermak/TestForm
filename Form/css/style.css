@@ -8,17 +8,20 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    margin: 0;
 }
 
 .body {
-    width: 694px;
-    height: 623px;
+    width: 90%;
+    max-width: 694px;
+    height: auto;
     border-radius: 16px;
     background-color: #F5F5F5;
 }
 
 header {
     margin: 132px 132px 0 132px;
+    transition: margin 0.5s ease;
 }
 
 h1 {
@@ -41,7 +44,8 @@ h2 {
 form {
     display: flex;
     flex-direction: column;
-    margin: 32px 132px;
+    margin: 32px 132px 132px 132px;
+    transition: margin 0.5s ease;
     font-size: 14px;
     font-weight: 500;
 }
@@ -51,7 +55,7 @@ span {
 }
 
 input {
-    width: 418px;
+    max-width: 430px;
     height: 49px;
     border: 1px solid #D5E0EF;
     background-color: #F5F5F5;
@@ -69,14 +73,30 @@ input[placeholder="DSFSDFSDF"] {
 }
 
 button {
-    width: 430px;
+    max-width: 430px;
     height: 52px;
     background-color: #007BFF;
     border-radius: 8px;
     border: 1px solid #007BFF;
-    margin: 0 132px 132px 132px;
+    margin: 32px 0 0 0;
     color: white;
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    header {
+        margin: 80px 80px 0 80px;
+    }
+
+    form {
+        margin: 32px 80px 80px 80px;
+    }
+}
+
+@media (max-width: 300px) {
+    .body {
+        width: 300px;
+    }
 }

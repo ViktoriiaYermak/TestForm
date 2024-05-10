@@ -85,7 +85,7 @@ button {
     cursor: pointer;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 650px) {
     header {
         margin: 80px 80px 0 80px;
     }

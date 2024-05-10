@@ -1,0 +1,82 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+    background-color: #6B9BD3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.body {
+    width: 694px;
+    height: 623px;
+    border-radius: 16px;
+    background-color: #F5F5F5;
+}
+
+header {
+    margin: 132px 132px 0 132px;
+}
+
+h1 {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+h2 {
+    margin: 0;
+    margin-top: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 32px 132px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+span {
+    margin-bottom: 8px;
+}
+
+input {
+    width: 418px;
+    height: 49px;
+    border: 1px solid #D5E0EF;
+    background-color: #F5F5F5;
+    border-radius: 8px;
+    padding: 0 0 0 8px;
+}
+
+input[type="text"] {
+    margin-bottom: 12px;
+}
+
+input[placeholder="DSFSDFSDF"] {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+button {
+    width: 430px;
+    height: 52px;
+    background-color: #007BFF;
+    border-radius: 8px;
+    border: 1px solid #007BFF;
+    margin: 0 132px 132px 132px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
